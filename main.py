@@ -213,6 +213,7 @@ while True:
                 elif choosedMenu == 1 :
                     bgnow = bg5
                     STATE = GAMESTART
+                    score_now = 0
                     flagSOAL = ACAK_SOAL
             elif event.key == pygame.K_RETURN and STATE==ABOUT :
                 STATE = MENU
